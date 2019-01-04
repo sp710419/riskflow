@@ -1,0 +1,5 @@
+camunda:
+  bpm:
+    admin-user:
+      id: soumya
+      password: soumya1234

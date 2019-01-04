@@ -1,0 +1,40 @@
+<strong>Do you approve this Line Item ?</strong>
+
+<form role="form" class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label">Line Item Name</label>
+    <div class="controls">
+      <input type="text" class="form-control" 
+        cam-variable-name="li_name"        
+        readonly="true"
+        />
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Description</label>
+    <div class="controls">
+      <input type="text" class="form-control"
+        cam-variable-name="desc"
+		readonly="true"
+         />
+    </div>
+  </div>  
+  <div class="control-group">
+    <label class="control-label">Approve?</label>
+    <div class="controls">
+      <input type="checkbox" class="form-control"
+        cam-variable-name="approved"
+        cam-variable-type="Boolean"
+         />
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label">Comments</label>
+    <div class="controls">
+      <input type="text" class="form-control"
+		cam-variable-name="comments"
+		cam-variable-type="String"
+        />
+    </div>
+  </div>    
+</form>
